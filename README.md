@@ -1,0 +1,17 @@
+# Find a friend api
+
+## Funcionalidades da Aplicação
+- [x] O cadastro de um pet
+- [x] A listagem de todos os pets disponíveis para adoção em uma determinada cidade
+- [x] A filtragem de pets com base em suas características (como idade, porte, etc.)
+- [x] A visualização dos detalhes de um pet específico
+- [x] O cadastro de uma ORG (organização)
+- [x] O login de uma ORG no sistema
+
+## Regras de Negócio
+- [x] A informação da cidade é obrigatória para listar os pets
+- [x] Uma ORG deve, obrigatoriamente, ter um endereço e um número de WhatsApp
+- [x] Todo pet cadastrado precisa estar vinculado a uma ORG
+- [x] O contato do usuário interessado em adotar um pet será feito diretamente com a ORG via WhatsApp
+- [x] Todos os filtros de características do pet, com exceção da cidade, são opcionais
+- [x] Para que uma ORG tenha acesso administrativo à aplicação, ela deve estar logada
